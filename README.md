@@ -1,1 +1,1 @@
-# 7lab
+Romanov Platon ITS-b-o-21-1 7laba
