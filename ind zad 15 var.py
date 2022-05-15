@@ -107,7 +107,7 @@ if __name__ == '__main__':
 
                 print(line_new)
             else:
-                print('Таких пользователей не найдено')
+                print('Таких пользователей не найдено', file=sys.stderr)
         elif command == 'help':
             print('Список команд:\n')
             print('add - добавить пользователя.')
@@ -116,5 +116,5 @@ if __name__ == '__main__':
             print('help - Справочник.')
             print('exit - Завершить пработу программы.')
         else:
-            print(f'Команда <{command}> не существует.')
+            print(f'Команда <{command}> не существует.', file=sys.stderr)
             print('Введите <help> для просмотра доступных команд')
